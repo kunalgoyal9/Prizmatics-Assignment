@@ -9,4 +9,4 @@
 6. Yolo-obj.cfg has network as of yolov2 in cfg folder but updated accordingly .
 7. Now we downloaded pre-trained weights from "https://pjreddie.com/media/files/darknet19_448.conv.23"
 8. We train darknet using "./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23" upto 1000 iterations for about 1 hour.
-9. Test our obtained weigths in backup folder using command "darknet.exe detector test cfg/obj.data cfg/yolo-obj.cfg yolo-obj1000.weights data/testimage.jpg"
+9. Test our obtained weigths in backup folder using command "./darknet detector test cfg/obj.data cfg/yolo-obj.cfg yolo-obj1000.weights data/testimage.jpg"
